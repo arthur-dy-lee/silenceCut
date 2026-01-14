@@ -1,0 +1,8 @@
+# SilenceCut GUI 依赖
+PyQt6>=6.4.0
+numpy>=1.21.0
+scipy>=1.7.0
+pydub>=0.25.1
+
+# 打包工具 (可选，用于生成 .exe)
+pyinstaller>=5.0
