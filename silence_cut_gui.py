@@ -498,6 +498,13 @@ class MainWin(QMainWindow):
         self._init_menu()
         self._load()
         self._texts()
+        # 设置窗口图标
+        for icon_name in ["icon1.ico", "icon2.ico", "icon3.ico", "icon1.png", "icon2.png", "icon3.png"]:
+            icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), icon_name)
+            if os.path.exists(icon_path):
+                from PyQt6.QtGui import QIcon
+                self.setWindowIcon(QIcon(icon_path))
+                break
         self.setStyleSheet(STYLE_SHEET)
 
     def _init_menu(self):
