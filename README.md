@@ -23,7 +23,7 @@
 
 ## 📸 界面预览
 
-![SilenceCut 界面](screenshot.png)
+![SilenceCut 界面](/png/GUI_zh.png)
 
 ## 🔧 环境要求
 

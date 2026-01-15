@@ -23,7 +23,7 @@ English | [中文](README.md)
 
 ## 📸 Screenshot
 
-![SilenceCut Interface](screenshot.png)
+![SilenceCut 界面](/png/GUI_en.png)
 
 ## 🔧 Requirements
 

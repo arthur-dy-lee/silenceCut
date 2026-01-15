@@ -17,9 +17,9 @@ if %errorlevel% neq 0 (
 REM Check icon file
 set ICON_OPT=
 
-if exist "icon1.ico" (
-    set ICON_OPT=--icon=icon1.ico
-    echo [INFO] Using icon: icon1.ico
+if exist "icon6.ico" (
+    set ICON_OPT=--icon=icon6.ico
+    echo [INFO] Using icon: icon6.ico
 ) else if exist "icon2.ico" (
     set ICON_OPT=--icon=icon2.ico
     echo [INFO] Using icon: icon2.ico
@@ -28,7 +28,7 @@ if exist "icon1.ico" (
     echo [INFO] Using icon: icon3.ico
 ) else (
     echo [INFO] No .ico file found, building without icon
-    echo [TIP] Convert PNG to ICO and name it icon1.ico, icon2.ico, or icon3.ico
+    echo [TIP] Convert PNG to ICO and name it icon6.ico, icon2.ico, or icon3.ico
 )
 
 echo.
