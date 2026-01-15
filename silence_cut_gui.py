@@ -884,18 +884,20 @@ class MainWin(QMainWindow):
             if fs:
                 d = os.path.dirname(fs[0])
             else:
-                QMessageBox.warning(self, I18n.get("tip"), I18n.get("no_files")); return
+                QMessageBox.warning(self, I18n.get("tip"), I18n.get("no_files"))
+                return
         else:
             d = self.e_dir.text()
-        if os.path.exists(d):
-            if platform.system() == "Windows":
-                os.startfile(d)
-            elif platform.system() == "Darwin":
-                subprocess.run(["open", d])
-            else:
-                subprocess.run(["xdg-open", d])
+            if not d:
+                d = os.path.join(str(Path.home()), "Videos", "SilenceCut_Output")
+        if not os.path.exists(d):
+            os.makedirs(d, exist_ok=True)
+        if platform.system() == "Windows":
+            subprocess.run(["explorer", os.path.normpath(d)])
+        elif platform.system() == "Darwin":
+            subprocess.run(["open", d])
         else:
-            QMessageBox.warning(self, I18n.get("tip"), I18n.get("dir_error"))
+            subprocess.run(["xdg-open", d])
 
     def _cfg(self):
         return {"sil_spd": self.sp_sil.value(), "glob_spd": self.sp_glob.value(), "margin": self.sp_mar.value(),
