@@ -36,7 +36,7 @@ English | [中文](README.md)
 
 ### Option 1: Download Executable (Recommended)
 
-1. Go to [Releases](https://github.com/your-username/SilenceCut/releases) page
+1. Go to [Releases](https://github.com/arthur-dy-lee/silenceCut/releases) page
 2. Download the latest `SilenceCut.exe`
 3. Double-click to run
 

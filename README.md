@@ -36,7 +36,7 @@
 
 ### 方式一：下载可执行文件 (推荐)
 
-1. 前往 [Releases](https://github.com/你的用户名/SilenceCut/releases) 页面
+1. 前往 [Releases](https://github.com/arthur-dy-lee/silenceCut/releases) 页面
 2. 下载最新版本的 `SilenceCut.exe`
 3. 双击运行即可
 
