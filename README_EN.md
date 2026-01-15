@@ -1,4 +1,4 @@
-# SilenceCut v2.1 - Auto Silence Remover
+# SilenceCut v1.1 - Auto Silence Remover
 
 English | [中文](README.md)
 

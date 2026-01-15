@@ -1,4 +1,4 @@
-# SilenceCut v2.1 - 自动静音剪辑工具
+# SilenceCut v1.1 - 自动静音剪辑工具
 
 [English](README_EN.md) | 中文
 
