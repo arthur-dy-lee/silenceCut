@@ -114,7 +114,7 @@ pydub>=0.25.0
 
 ## 📄 License
 
-MIT License
+Apache License
 
 ## 🤝 Contributing
 

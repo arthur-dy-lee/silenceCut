@@ -114,7 +114,7 @@ pydub>=0.25.0
 
 ## 📄 开源协议
 
-MIT License
+Apache License
 
 ## 🤝 贡献
 
